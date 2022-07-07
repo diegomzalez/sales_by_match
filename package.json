@@ -1,0 +1,27 @@
+{
+  "name": "sales_by_match",
+  "version": "1.0.0",
+  "description": "Sales by Match is a challenge from HackerRank.",
+  "main": "src",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomdevs/sales_by_match.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "hackerrank",
+    "problem",
+    "practice"
+  ],
+  "author": "Diego González <diegom.develops@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomdevs/sales_by_match/issues"
+  },
+  "homepage": "https://github.com/diegomdevs/sales_by_match#readme"
+}
