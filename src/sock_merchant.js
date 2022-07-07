@@ -12,14 +12,7 @@ export function sock_merchant(n, ar) {
     else dict[element]++;
   });
   for (let sock in dict) {
-    if (dict[sock] > 1) {
-      if (dict[sock] % 2 === 0) {
-        pairs += dict[sock] / 2;
-      } else {
-        dict[sock]--;
-        pairs += dict[sock] / 2;
-      }
-    }
+    pairs += Math.floor(dict[sock] / 2);
   }
   return pairs;
 }
