@@ -8,11 +8,11 @@ export function sock_merchant(n, ar) {
   let dict = {};
   let pairs = 0;
   ar.forEach((element) => {
-    if (dict[element] === undefined) dict[element] = 1;
-    else dict[element]++;
+    if (dict[element] === undefined) dict[element] = true;
+    else {
+      dict[element] = undefined;
+      pairs++;
+    }
   });
-  for (let sock in dict) {
-    pairs += Math.floor(dict[sock] / 2);
-  }
   return pairs;
 }

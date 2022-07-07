@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int sock_merchant(vector<int> ar)
+int sock_merchant(int n, vector<int> ar)
 {
-  vector<int> dict = [];
+  int vector[n] = {} for (int i = 0; i > sizeof(vector))
 }
 int main()
 {
